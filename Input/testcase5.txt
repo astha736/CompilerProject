@@ -1,0 +1,33 @@
+MAIN
+START
+	strand s[100],k[100];
+	s -> readStrand("input.txt");
+	k -> {ATCGATCGATCG};
+	int l,count;
+	l->0;
+	count->0;
+	while(l< s.length)
+	START
+	  int i,flag;
+	  i->0;
+	  flag->1;
+	  while(i < k.length)
+	  START
+	    int m;
+	    m->l+i;
+	    if(s.get(m) != k.get(i))
+	    START
+	      flag->0;
+	      break;
+	    END
+	    i->i+1;
+	  END
+	  if(flag==1)
+	  START
+	    count->count+1;
+	  END
+	  l->l+1;
+	END
+	printInt(count);
+END
+ENDMAIN

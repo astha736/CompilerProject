@@ -1,0 +1,27 @@
+MAIN
+START
+	strand s[15],k[15];
+	s -> {ATGCCGTAATGCTGA};
+	k -> {ATGCCTTAATTAATT};
+	int i;
+	strand m[30];
+	i-> 0;
+	base b;
+	while (i<15)
+	START
+	  b -> s.get(i);
+	  m.insert(b);
+	  i -> i+1;
+	END
+	i -> 0;
+	while (i<15)
+	START
+	  b -> k.get(i);
+	  m.insert(b);
+	  i -> i+1;
+	END
+	i->i+14;
+	b -> m.get(i);
+	printBase(b);
+END
+ENDMAIN

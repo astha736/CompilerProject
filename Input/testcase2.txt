@@ -1,0 +1,36 @@
+MAIN
+START
+	strand s[100];
+	s -> readStrand("input.txt");
+	strand k[100];
+	base b;
+	for each (b in s)
+	START
+	  if (b == <A>)
+	  START
+	    k.insert(<T>);
+	  END
+	  else if (b == <T>)
+	  START
+	    k.insert(<A>);
+	  END
+	  else if (b == <G>)
+	  START
+	    k.insert(<C>);
+	  END
+	  else if (b == <C>)
+	  START
+	    k.insert(<G>);
+	  END
+	  else
+	  START
+	    printInt(0);
+	  END
+	END
+	base p;
+	for each (p in k)
+	START
+	  printBase(p);
+	END
+END
+ENDMAIN

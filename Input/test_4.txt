@@ -1,0 +1,9 @@
+MAIN
+START
+int a;
+base s;
+printBase(a);
+printInt(a);
+
+END
+ENDMAIN

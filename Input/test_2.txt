@@ -1,0 +1,6 @@
+MAIN
+START
+b->a+b+c;
+END
+ENDMAIN
+

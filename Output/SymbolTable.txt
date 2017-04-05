@@ -1,0 +1,7 @@
+
+  VALUE      	| TYPE            	| LINENO 	| SCOPE 	| LBOUND 	| UBOUND 	| ARGC 	| RET_TYPE
+  i          	| TK_DATA_INT     	| 6     	| 1.100000 	| -1    	| -1    	| -1  	| -1   
+  k          	| TK_DATA_STRAND  	| 3     	| 1.100000 	| 0     	| 14    	| -1  	| -1   
+  m          	| TK_DATA_STRAND  	| 7     	| 1.100000 	| 0     	| 29    	| -1  	| -1   
+  s          	| TK_DATA_STRAND  	| 3     	| 1.100000 	| 0     	| 14    	| -1  	| -1   
+  b          	| TK_DATA_BASE    	| 9     	| 1.100000 	| -1    	| -1    	| -1  	| -1   

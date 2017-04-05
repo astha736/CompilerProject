@@ -1,0 +1,928 @@
+NODE:$
+NODE:$
+CHILD 1:Program  1
+NODE:Program 
+CHILD 1:functions 4
+CHILD 2:MAIN 4
+CHILD 3:functionbody 4
+CHILD 4:ENDMAIN 4
+NODE:ENDMAIN
+NODE:functionbody
+CHILD 1:START 3
+CHILD 2:statements 3
+CHILD 3:END 3
+NODE:END
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:END 1
+NODE:END
+NODE:statement
+CHILD 1:PrintBase_stmt 1
+NODE:PrintBase_stmt
+CHILD 1:printBase 5
+CHILD 2:( 5
+CHILD 3:Base 5
+CHILD 4:) 5
+CHILD 5:; 5
+NODE:;
+NODE:)
+NODE:Base
+CHILD 1:b 1
+NODE:b
+NODE:(
+NODE:printBase
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:b 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:m 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:. 2
+CHILD 2:Operator 2
+NODE:Operator
+CHILD 1:get 4
+CHILD 2:( 4
+CHILD 3:Index 4
+CHILD 4:) 4
+NODE:)
+NODE:Index
+CHILD 1:i 1
+NODE:i
+NODE:(
+NODE:get
+NODE:.
+NODE:m
+NODE:->
+NODE:b
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:i 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:+ 2
+CHILD 2:PlusExp 2
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:14 1
+NODE:14
+NODE:+
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:+ 1
+NODE:+
+NODE:RootExp
+CHILD 1:i 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:+ 1
+NODE:+
+NODE:i
+NODE:->
+NODE:i
+NODE:statement
+CHILD 1:Iterative_stmt 1
+NODE:Iterative_stmt
+CHILD 1:While_stmt 1
+NODE:While_stmt
+CHILD 1:while 7
+CHILD 2:( 7
+CHILD 3:Exp 7
+CHILD 4:) 7
+CHILD 5:START 7
+CHILD 6:statements 7
+CHILD 7:END 7
+NODE:END
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:END 1
+NODE:END
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:i 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:+ 2
+CHILD 2:PlusExp 2
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:1 1
+NODE:1
+NODE:+
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:+ 1
+NODE:+
+NODE:RootExp
+CHILD 1:i 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:+ 1
+NODE:+
+NODE:i
+NODE:->
+NODE:i
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:m 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:. 5
+CHILD 2:insert 5
+CHILD 3:( 5
+CHILD 4:Base 5
+CHILD 5:) 5
+NODE:)
+NODE:Base
+CHILD 1:b 1
+NODE:b
+NODE:(
+NODE:insert
+NODE:.
+NODE:m
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:b 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:k 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:. 2
+CHILD 2:Operator 2
+NODE:Operator
+CHILD 1:get 4
+CHILD 2:( 4
+CHILD 3:Index 4
+CHILD 4:) 4
+NODE:)
+NODE:Index
+CHILD 1:i 1
+NODE:i
+NODE:(
+NODE:get
+NODE:.
+NODE:k
+NODE:->
+NODE:b
+NODE:START
+NODE:)
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:CompOp 2
+CHILD 2:PlusExp 2
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:RootExp
+CHILD 1:15 1
+NODE:15
+NODE:CompOp
+CHILD 1:< 1
+NODE:<
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:< 1
+NODE:<
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:< 1
+NODE:<
+NODE:RootExp
+CHILD 1:i 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:< 1
+NODE:<
+NODE:i
+NODE:(
+NODE:while
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:i 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:0 1
+NODE:0
+NODE:->
+NODE:i
+NODE:statement
+CHILD 1:Iterative_stmt 1
+NODE:Iterative_stmt
+CHILD 1:While_stmt 1
+NODE:While_stmt
+CHILD 1:while 7
+CHILD 2:( 7
+CHILD 3:Exp 7
+CHILD 4:) 7
+CHILD 5:START 7
+CHILD 6:statements 7
+CHILD 7:END 7
+NODE:END
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:statement 2
+CHILD 2:statements 2
+NODE:statements
+CHILD 1:END 1
+NODE:END
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:i 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:+ 2
+CHILD 2:PlusExp 2
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:1 1
+NODE:1
+NODE:+
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:+ 1
+NODE:+
+NODE:RootExp
+CHILD 1:i 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:+ 1
+NODE:+
+NODE:i
+NODE:->
+NODE:i
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:m 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:. 5
+CHILD 2:insert 5
+CHILD 3:( 5
+CHILD 4:Base 5
+CHILD 5:) 5
+NODE:)
+NODE:Base
+CHILD 1:b 1
+NODE:b
+NODE:(
+NODE:insert
+NODE:.
+NODE:m
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:b 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:s 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:. 2
+CHILD 2:Operator 2
+NODE:Operator
+CHILD 1:get 4
+CHILD 2:( 4
+CHILD 3:Index 4
+CHILD 4:) 4
+NODE:)
+NODE:Index
+CHILD 1:i 1
+NODE:i
+NODE:(
+NODE:get
+NODE:.
+NODE:s
+NODE:->
+NODE:b
+NODE:START
+NODE:)
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:CompOp 2
+CHILD 2:PlusExp 2
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:) 1
+NODE:)
+NODE:RootExp
+CHILD 1:15 1
+NODE:15
+NODE:CompOp
+CHILD 1:< 1
+NODE:<
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:< 1
+NODE:<
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:< 1
+NODE:<
+NODE:RootExp
+CHILD 1:i 2
+CHILD 2:DotOperators 2
+NODE:DotOperators
+CHILD 1:< 1
+NODE:<
+NODE:i
+NODE:(
+NODE:while
+NODE:statement
+CHILD 1:Declaration_stmt 1
+NODE:Declaration_stmt
+CHILD 1:type_basic 4
+CHILD 2:b 4
+CHILD 3:idList 4
+CHILD 4:; 4
+NODE:;
+NODE:idList
+CHILD 1:; 1
+NODE:;
+NODE:b
+NODE:type_basic
+CHILD 1:base 1
+NODE:base
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:i 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:0 1
+NODE:0
+NODE:->
+NODE:i
+NODE:statement
+CHILD 1:Declaration_stmt 1
+NODE:Declaration_stmt
+CHILD 1:type_array 7
+CHILD 2:m 7
+CHILD 3:[ 7
+CHILD 4:30 7
+CHILD 5:] 7
+CHILD 6:idList_array 7
+CHILD 7:; 7
+NODE:;
+NODE:idList_array
+CHILD 1:; 1
+NODE:;
+NODE:]
+NODE:30
+NODE:[
+NODE:m
+NODE:type_array
+CHILD 1:strand 1
+NODE:strand
+NODE:statement
+CHILD 1:Declaration_stmt 1
+NODE:Declaration_stmt
+CHILD 1:type_basic 4
+CHILD 2:i 4
+CHILD 3:idList 4
+CHILD 4:; 4
+NODE:;
+NODE:idList
+CHILD 1:; 1
+NODE:;
+NODE:i
+NODE:type_basic
+CHILD 1:int 1
+NODE:int
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:k 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:{ATGCCTTAATTAATT} 1
+NODE:{ATGCCTTAATTAATT}
+NODE:->
+NODE:k
+NODE:statement
+CHILD 1:Exp_stmt 1
+NODE:Exp_stmt
+CHILD 1:s 3
+CHILD 2:Exp_Con 3
+CHILD 3:; 3
+NODE:;
+NODE:Exp_Con
+CHILD 1:-> 2
+CHILD 2:Exp 2
+NODE:Exp
+CHILD 1:AndExp 2
+CHILD 2:Exp_Cont 2
+NODE:Exp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:AndExp
+CHILD 1:CompExp 2
+CHILD 2:AndExp_Cont 2
+NODE:AndExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:CompExp
+CHILD 1:PlusExp 2
+CHILD 2:CompExp_Cont 2
+NODE:CompExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:PlusExp
+CHILD 1:MulExp 2
+CHILD 2:PlusExp_Cont 2
+NODE:PlusExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:MulExp
+CHILD 1:RootExp 2
+CHILD 2:MulExp_Cont 2
+NODE:MulExp_Cont
+CHILD 1:; 1
+NODE:;
+NODE:RootExp
+CHILD 1:{ATGCCGTAATGCTGA} 1
+NODE:{ATGCCGTAATGCTGA}
+NODE:->
+NODE:s
+NODE:statement
+CHILD 1:Declaration_stmt 1
+NODE:Declaration_stmt
+CHILD 1:type_array 7
+CHILD 2:s 7
+CHILD 3:[ 7
+CHILD 4:15 7
+CHILD 5:] 7
+CHILD 6:idList_array 7
+CHILD 7:; 7
+NODE:;
+NODE:idList_array
+CHILD 1:, 6
+CHILD 2:k 6
+CHILD 3:[ 6
+CHILD 4:15 6
+CHILD 5:] 6
+CHILD 6:idList_array 6
+NODE:idList_array
+CHILD 1:; 1
+NODE:;
+NODE:]
+NODE:15
+NODE:[
+NODE:k
+NODE:,
+NODE:]
+NODE:15
+NODE:[
+NODE:s
+NODE:type_array
+CHILD 1:strand 1
+NODE:strand
+NODE:START
+NODE:MAIN
+NODE:functions
+CHILD 1:MAIN 1
+NODE:MAIN

@@ -1,0 +1,16 @@
+int FIND (strand s1, strand s2)
+START
+	j -> 0;
+	count -> 0;
+	while ( i <> s1.length AND j < s2.length)
+	START
+	  if ( (s1.get(i) == <A> AND s2.get(j) != <T>) OR
+	  (s1.get(i) == <T> AND s2.get(j) != <A>) OR
+	  (s1.get(i) == <G> AND s2.get(j) != <C>) OR
+	  (s1.get(i) == <C> AND s2.get(j) != <G>) )
+	END
+return count;
+END
+
+MAIN
+ENDMAIN

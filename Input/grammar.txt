@@ -1,0 +1,104 @@
+/*	Group 29: Team 2
+	2012A7PS084P: Srishti Dhamija
+	2012C6PS736P: Astha Gupta	*/
+
+HERE EACH NO CORRESPONDS TO A UNIQUE RULE 
+1	<Program> ===> <functions> TK_MAIN <functionbody> TK_ENDMAIN
+2	<functions> ===> <function> <functions> 
+3	<functions> ===>  e
+4	<function> ===> <funsignature> <functionbody>
+5	<funsignature> ===> <type> TK_IDENTIFIER TK_LP <params1> TK_RP
+6	<params1> ===> <type> TK_IDENTIFIER <params2>  
+7	<params2> ===> TK_COMMA <params1> 
+8	<params2> ===>  e
+9	<functionbody> ===>TK_START <statements> TK_END
+10	<statements> ===> <statement> <statements> 
+11	<statements> ===>  e
+12	<statement> ===> <Exp_stmt>
+13	<statement> ===><Iterative_stmt>
+14	<statement> ===> <Selection_stmt> 
+15	<statement> ===>  <Declaration_stmt> 
+16	<statement> ===><Return_stmt>
+17	<statement> ===> <Break_stmt> 
+18	<statement> ===><PrintInt_stmt>
+19	<statement> ===>  <PrintBase_stmt>
+20	<Exp_stmt> ===> TK_IDENTIFIER <Exp_Con> TK_SEMI
+21	<Exp_Con> ===> TK_DOT TK_INSERT TK_LP <Base> TK_RP 
+22	<Exp_Con> ===>  TK_ASSIGNOP <Exp>
+23	<Exp_Con> ===>  <more>
+24	<more> ===> TK_LP <args1> TK_RP
+25	<args1> ===> <args3> <args2> 
+26	<args1> ===> e 
+27	<args2> ===> TK_COMMA <args3> <args2> 
+28	<args2> ===>  e
+29	<args3> ===> TK_IDENTIFIER 
+30	<args3> ===>  TK_INT 
+31	<args3> ===>TK_STRINGCONSTANT
+32	<Exp> ===> <AndExp> <Exp_Cont>
+33	<Exp_Cont> ===> TK_OR <Exp> 
+34	<Exp_Cont> ===> e
+35	<AndExp> ===> <CompExp> <AndExp_Cont>
+36	<AndExp_Cont> ===> TK_AND <AndExp> 
+37	<AndExp_Cont> ===>  e
+38	<CompExp> ===> <PlusExp> <CompExp_Cont> 
+39	<CompExp_Cont> ===> <CompOp> <PlusExp> 
+40	<CompExp_Cont> ===>  e
+41	<CompOp> ===> TK_LT 
+42	<CompOp> ===> TK_GT
+43	<CompOp> ===> TK_LE
+44	<CompOp> ===>  TK_GE
+45	<CompOp> ===>  TK_EQUAL 
+46	<CompOp> ===>  TK_NOTEQUAL
+47	<PlusExp> ===> <MulExp> <PlusExp_Cont> 
+48	<PlusExp_Cont> ===> TK_ADD <PlusExp> 
+49	<PlusExp_Cont> ===>TK_SUB <PlusExp> 
+50	<PlusExp_Cont> ===>  e
+51	<MulExp> ===> <RootExp> <MulExp_Cont> 
+52	<MulExp_Cont> ===> TK_MUL <MulExp> 
+53	<MulExp_Cont> ===> TK_DIV <MulExp> 
+54	<MulExp_Cont> ===> e
+55	<RootExp> ===> TK_IDENTIFIER <DotOperators> 
+56	<RootExp> ===>  TK_INT 
+57	<RootExp> ===> TK_LP <Exp> TK_RP 
+58	<RootExp> ===> TK_BASE 
+59	<RootExp> ===>  TK_STRAND
+60	<RootExp> ===><Input_stmt>
+61	<DotOperators> ===> TK_DOT <Operator> 
+62	<DotOperators> ===> <more>
+63	<DotOperators> ===>  e
+64	<Operator> ===> TK_LENGTH 
+65	<Operator> ===> TK_GET TK_LP <Index> TK_RP
+66	<Index> ===> TK_INT 
+67	<Index> ===> TK_IDENTIFIER
+68	<Iterative_stmt> ===> <For_stmt> 
+69	<Iterative_stmt> ===> <While_stmt>
+70	<For_stmt> ===> TK_FOR TK_EACH TK_LP TK_IDENTIFIER TK_IN TK_IDENTIFIER <For_Con> TK_RP TK_START <statements> TK_END
+71	<For_Con> ===> TK_COMMA TK_IDENTIFIER TK_IN TK_IDENTIFIER <For_Con> 
+72	<For_Con> ===> e
+73	<While_stmt> ===> TK_WHILE TK_LP <Exp> TK_RP TK_START <statements> TK_END
+74	<Selection_stmt>===> TK_IF TK_LP <Exp> TK_RP TK_START <statements> TK_END <Selection_Con> 
+75	<Selection_Con>===> TK_ELSE<else_if> 
+76	<Selection_Con>===> e
+77	<else _if> ===> TK_IF TK_LP <Exp> TK_RP TK_START <statements> TK_END TK_ELSE <else_if>
+78	<else _if> ===>  TK_START <statements> TK_END
+79	<Declaration_stmt> ===> <type_basic>  TK_IDENTIFIER <idList> TK_SEMI 
+80	<Declaration_stmt> ===> <type_array> TK_IDENTIFIER TK_LB TK_INT TK_RB <idList_array> TK_SEMI
+81	<idList> ===> TK_COMMA TK_IDENTIFIER <idList> 
+82	<idList> ===> e
+83	<idList_array> ===> TK_COMMA TK_IDENTIFIER TK_LB TK_INT TK_RB <idList_array> 
+84	<idList_array> ===> e
+85	<Return_stmt> ===> TK_RETURN <Return_Root> TK_SEMI
+86	<Return_Root> ===> <Exp> 
+87	<Return_Root> ===>e
+88	<Break_stmt> ===> TK_BREAK TK_SEMI
+89	<type> ===> <type_basic> 
+90	<type> ===><type_array>
+91	<type_basic> ===> TK_DATA_INT
+92	<type_basic> ===>TK_DATA_BASE 
+93	<type_array> ===> TK_DATA_STRAND
+94	<Base> ===> TK_BASE
+95	<Base> ===> TK_IDENTIFIER
+96	<Input_stmt>===> TK_READSTRAND TK_LP TK_STRINGCONSTANT TK_RP
+97	<PrintInt_stmt> ===> TK_PRINTINT TK_LP <Index> TK_RP TK_SEMI
+98	<PrintBase_stmt> ===> TK_PRINTBASE TK_LP <Base> TK_RP TK_SEMI
+

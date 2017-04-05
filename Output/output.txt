@@ -1,0 +1,927 @@
+element:Program 
+token: TK_MAIN
+element:functions
+token: TK_MAIN
+element:e
+token: TK_MAIN
+element:TK_MAIN
+token: TK_MAIN
+element:functionbody
+token: TK_START
+element:TK_START
+token: TK_START
+element:statements
+token: TK_DATA_STRAND
+element:statement
+token: TK_DATA_STRAND
+element:Declaration_stmt
+token: TK_DATA_STRAND
+element:type_array
+token: TK_DATA_STRAND
+element:TK_DATA_STRAND
+token: TK_DATA_STRAND
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_LB
+token: TK_LB
+element:TK_INT
+token: TK_INT
+element:TK_RB
+token: TK_RB
+element:idList_array
+token: TK_COMMA
+element:TK_COMMA
+token: TK_COMMA
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_LB
+token: TK_LB
+element:TK_INT
+token: TK_INT
+element:TK_RB
+token: TK_RB
+element:idList_array
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_STRAND
+element:AndExp
+token: TK_STRAND
+element:CompExp
+token: TK_STRAND
+element:PlusExp
+token: TK_STRAND
+element:MulExp
+token: TK_STRAND
+element:RootExp
+token: TK_STRAND
+element:TK_STRAND
+token: TK_STRAND
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_STRAND
+element:AndExp
+token: TK_STRAND
+element:CompExp
+token: TK_STRAND
+element:PlusExp
+token: TK_STRAND
+element:MulExp
+token: TK_STRAND
+element:RootExp
+token: TK_STRAND
+element:TK_STRAND
+token: TK_STRAND
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_DATA_INT
+element:statement
+token: TK_DATA_INT
+element:Declaration_stmt
+token: TK_DATA_INT
+element:type_basic
+token: TK_DATA_INT
+element:TK_DATA_INT
+token: TK_DATA_INT
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:idList
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_DATA_STRAND
+element:statement
+token: TK_DATA_STRAND
+element:Declaration_stmt
+token: TK_DATA_STRAND
+element:type_array
+token: TK_DATA_STRAND
+element:TK_DATA_STRAND
+token: TK_DATA_STRAND
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_LB
+token: TK_LB
+element:TK_INT
+token: TK_INT
+element:TK_RB
+token: TK_RB
+element:idList_array
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_INT
+element:AndExp
+token: TK_INT
+element:CompExp
+token: TK_INT
+element:PlusExp
+token: TK_INT
+element:MulExp
+token: TK_INT
+element:RootExp
+token: TK_INT
+element:TK_INT
+token: TK_INT
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_DATA_BASE
+element:statement
+token: TK_DATA_BASE
+element:Declaration_stmt
+token: TK_DATA_BASE
+element:type_basic
+token: TK_DATA_BASE
+element:TK_DATA_BASE
+token: TK_DATA_BASE
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:idList
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_WHILE
+element:statement
+token: TK_WHILE
+element:Iterative_stmt
+token: TK_WHILE
+element:While_stmt
+token: TK_WHILE
+element:TK_WHILE
+token: TK_WHILE
+element:TK_LP
+token: TK_LP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_LT
+element:e
+token: TK_LT
+element:MulExp_Cont
+token: TK_LT
+element:e
+token: TK_LT
+element:PlusExp_Cont
+token: TK_LT
+element:e
+token: TK_LT
+element:CompExp_Cont
+token: TK_LT
+element:CompOp
+token: TK_LT
+element:TK_LT
+token: TK_LT
+element:PlusExp
+token: TK_INT
+element:MulExp
+token: TK_INT
+element:RootExp
+token: TK_INT
+element:TK_INT
+token: TK_INT
+element:MulExp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:PlusExp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:AndExp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:Exp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:TK_RP
+token: TK_RP
+element:TK_START
+token: TK_START
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_DOT
+element:TK_DOT
+token: TK_DOT
+element:Operator
+token: TK_GET
+element:TK_GET
+token: TK_GET
+element:TK_LP
+token: TK_LP
+element:Index
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_RP
+token: TK_RP
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_DOT
+element:TK_DOT
+token: TK_DOT
+element:TK_INSERT
+token: TK_INSERT
+element:TK_LP
+token: TK_LP
+element:Base
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_RP
+token: TK_RP
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_ADD
+element:e
+token: TK_ADD
+element:MulExp_Cont
+token: TK_ADD
+element:e
+token: TK_ADD
+element:PlusExp_Cont
+token: TK_ADD
+element:TK_ADD
+token: TK_ADD
+element:PlusExp
+token: TK_INT
+element:MulExp
+token: TK_INT
+element:RootExp
+token: TK_INT
+element:TK_INT
+token: TK_INT
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_END
+element:e
+token: TK_END
+element:TK_END
+token: TK_END
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_INT
+element:AndExp
+token: TK_INT
+element:CompExp
+token: TK_INT
+element:PlusExp
+token: TK_INT
+element:MulExp
+token: TK_INT
+element:RootExp
+token: TK_INT
+element:TK_INT
+token: TK_INT
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_WHILE
+element:statement
+token: TK_WHILE
+element:Iterative_stmt
+token: TK_WHILE
+element:While_stmt
+token: TK_WHILE
+element:TK_WHILE
+token: TK_WHILE
+element:TK_LP
+token: TK_LP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_LT
+element:e
+token: TK_LT
+element:MulExp_Cont
+token: TK_LT
+element:e
+token: TK_LT
+element:PlusExp_Cont
+token: TK_LT
+element:e
+token: TK_LT
+element:CompExp_Cont
+token: TK_LT
+element:CompOp
+token: TK_LT
+element:TK_LT
+token: TK_LT
+element:PlusExp
+token: TK_INT
+element:MulExp
+token: TK_INT
+element:RootExp
+token: TK_INT
+element:TK_INT
+token: TK_INT
+element:MulExp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:PlusExp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:AndExp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:Exp_Cont
+token: TK_RP
+element:e
+token: TK_RP
+element:TK_RP
+token: TK_RP
+element:TK_START
+token: TK_START
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_DOT
+element:TK_DOT
+token: TK_DOT
+element:Operator
+token: TK_GET
+element:TK_GET
+token: TK_GET
+element:TK_LP
+token: TK_LP
+element:Index
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_RP
+token: TK_RP
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_DOT
+element:TK_DOT
+token: TK_DOT
+element:TK_INSERT
+token: TK_INSERT
+element:TK_LP
+token: TK_LP
+element:Base
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_RP
+token: TK_RP
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_ADD
+element:e
+token: TK_ADD
+element:MulExp_Cont
+token: TK_ADD
+element:e
+token: TK_ADD
+element:PlusExp_Cont
+token: TK_ADD
+element:TK_ADD
+token: TK_ADD
+element:PlusExp
+token: TK_INT
+element:MulExp
+token: TK_INT
+element:RootExp
+token: TK_INT
+element:TK_INT
+token: TK_INT
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_END
+element:e
+token: TK_END
+element:TK_END
+token: TK_END
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_ADD
+element:e
+token: TK_ADD
+element:MulExp_Cont
+token: TK_ADD
+element:e
+token: TK_ADD
+element:PlusExp_Cont
+token: TK_ADD
+element:TK_ADD
+token: TK_ADD
+element:PlusExp
+token: TK_INT
+element:MulExp
+token: TK_INT
+element:RootExp
+token: TK_INT
+element:TK_INT
+token: TK_INT
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_IDENTIFIER
+element:statement
+token: TK_IDENTIFIER
+element:Exp_stmt
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:Exp_Con
+token: TK_ASSIGNOP
+element:TK_ASSIGNOP
+token: TK_ASSIGNOP
+element:Exp
+token: TK_IDENTIFIER
+element:AndExp
+token: TK_IDENTIFIER
+element:CompExp
+token: TK_IDENTIFIER
+element:PlusExp
+token: TK_IDENTIFIER
+element:MulExp
+token: TK_IDENTIFIER
+element:RootExp
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:DotOperators
+token: TK_DOT
+element:TK_DOT
+token: TK_DOT
+element:Operator
+token: TK_GET
+element:TK_GET
+token: TK_GET
+element:TK_LP
+token: TK_LP
+element:Index
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_RP
+token: TK_RP
+element:MulExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:PlusExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:CompExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:AndExp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:Exp_Cont
+token: TK_SEMI
+element:e
+token: TK_SEMI
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_PRINTBASE
+element:statement
+token: TK_PRINTBASE
+element:PrintBase_stmt
+token: TK_PRINTBASE
+element:TK_PRINTBASE
+token: TK_PRINTBASE
+element:TK_LP
+token: TK_LP
+element:Base
+token: TK_IDENTIFIER
+element:TK_IDENTIFIER
+token: TK_IDENTIFIER
+element:TK_RP
+token: TK_RP
+element:TK_SEMI
+token: TK_SEMI
+element:statements
+token: TK_END
+element:e
+token: TK_END
+element:TK_END
+token: TK_END
+element:TK_ENDMAIN
+token: TK_ENDMAIN
+element:TK_DOLLAR

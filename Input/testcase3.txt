@@ -1,0 +1,21 @@
+MAIN
+START
+	strand k1[100];
+	strand k2[100];
+	k1 -> readStrand("input1.txt");
+	k2 -> readStrand("input2.txt");
+	base VAR1, VAR2;
+	int count;
+	count -> 0;
+	for each (VAR1 in k1, VAR2 in k2)
+	START
+	  if (VAR1 == VAR2)
+		START
+		 count -> count+1;
+		END
+	  END
+	int percentage;
+	percentage -> count/ k1.length;
+	printInt(percentage);
+END
+ENDMAIN

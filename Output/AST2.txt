@@ -1,0 +1,517 @@
+NODE:$		TYPE:TK_DOLLAR
+CHILD 1:		TYPE:Program 		VALUE:Program 
+NODE:Program 		TYPE:Program 
+CHILD 3:		TYPE:functionbody		VALUE:functionbody
+CHILD 2:		TYPE:TK_MAIN		VALUE:MAIN
+NODE:MAIN		TYPE:TK_MAIN
+NODE:functionbody		TYPE:functionbody
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:TK_START		VALUE:START
+NODE:START		TYPE:TK_START
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Declaration_stmt		VALUE:Declaration_stmt
+NODE:Declaration_stmt		TYPE:Declaration_stmt
+CHILD 6:		TYPE:idList_array		VALUE:idList_array
+CHILD 4:		TYPE:TK_INT		VALUE:15
+CHILD 2:		TYPE:TK_IDENTIFIER		VALUE:s
+CHILD 1:		TYPE:type_array		VALUE:type_array
+NODE:type_array		TYPE:type_array
+CHILD 1:		TYPE:TK_DATA_STRAND		VALUE:strand
+NODE:strand		TYPE:TK_DATA_STRAND
+NODE:s		TYPE:TK_IDENTIFIER
+NODE:15		TYPE:TK_INT
+NODE:idList_array		TYPE:idList_array
+CHILD 4:		TYPE:TK_INT		VALUE:15
+CHILD 2:		TYPE:TK_IDENTIFIER		VALUE:k
+NODE:k		TYPE:TK_IDENTIFIER
+NODE:15		TYPE:TK_INT
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:s
+NODE:s		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_STRAND		VALUE:{ATGCCGTAATGCTGA}
+NODE:{ATGCCGTAATGCTGA}		TYPE:TK_STRAND
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:k
+NODE:k		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_STRAND		VALUE:{ATGCCTTAATTAATT}
+NODE:{ATGCCTTAATTAATT}		TYPE:TK_STRAND
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Declaration_stmt		VALUE:Declaration_stmt
+NODE:Declaration_stmt		TYPE:Declaration_stmt
+CHILD 2:		TYPE:TK_IDENTIFIER		VALUE:i
+CHILD 1:		TYPE:type_basic		VALUE:type_basic
+NODE:type_basic		TYPE:type_basic
+CHILD 1:		TYPE:TK_DATA_INT		VALUE:int
+NODE:int		TYPE:TK_DATA_INT
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Declaration_stmt		VALUE:Declaration_stmt
+NODE:Declaration_stmt		TYPE:Declaration_stmt
+CHILD 4:		TYPE:TK_INT		VALUE:30
+CHILD 2:		TYPE:TK_IDENTIFIER		VALUE:m
+CHILD 1:		TYPE:type_array		VALUE:type_array
+NODE:type_array		TYPE:type_array
+CHILD 1:		TYPE:TK_DATA_STRAND		VALUE:strand
+NODE:strand		TYPE:TK_DATA_STRAND
+NODE:m		TYPE:TK_IDENTIFIER
+NODE:30		TYPE:TK_INT
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_INT		VALUE:0
+NODE:0		TYPE:TK_INT
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Declaration_stmt		VALUE:Declaration_stmt
+NODE:Declaration_stmt		TYPE:Declaration_stmt
+CHILD 2:		TYPE:TK_IDENTIFIER		VALUE:b
+CHILD 1:		TYPE:type_basic		VALUE:type_basic
+NODE:type_basic		TYPE:type_basic
+CHILD 1:		TYPE:TK_DATA_BASE		VALUE:base
+NODE:base		TYPE:TK_DATA_BASE
+NODE:b		TYPE:TK_IDENTIFIER
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Iterative_stmt		VALUE:Iterative_stmt
+NODE:Iterative_stmt		TYPE:Iterative_stmt
+CHILD 1:		TYPE:While_stmt		VALUE:While_stmt
+NODE:While_stmt		TYPE:While_stmt
+CHILD 6:		TYPE:statements		VALUE:statements
+CHILD 5:		TYPE:TK_START		VALUE:START
+CHILD 3:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_WHILE		VALUE:while
+NODE:while		TYPE:TK_WHILE
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 2:		TYPE:CompExp_Cont		VALUE:CompExp_Cont
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:CompExp_Cont		TYPE:CompExp_Cont
+CHILD 2:		TYPE:PlusExp		VALUE:PlusExp
+CHILD 1:		TYPE:CompOp		VALUE:CompOp
+NODE:CompOp		TYPE:CompOp
+CHILD 1:		TYPE:TK_LT		VALUE:<
+NODE:<		TYPE:TK_LT
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_INT		VALUE:15
+NODE:15		TYPE:TK_INT
+NODE:START		TYPE:TK_START
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:b
+NODE:b		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 2:		TYPE:DotOperators		VALUE:DotOperators
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:s
+NODE:s		TYPE:TK_IDENTIFIER
+NODE:DotOperators		TYPE:DotOperators
+CHILD 2:		TYPE:Operator		VALUE:Operator
+NODE:Operator		TYPE:Operator
+CHILD 3:		TYPE:Index		VALUE:Index
+CHILD 1:		TYPE:TK_GET		VALUE:get
+NODE:get		TYPE:TK_GET
+NODE:Index		TYPE:Index
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:m
+NODE:m		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 4:		TYPE:Base		VALUE:Base
+CHILD 2:		TYPE:TK_INSERT		VALUE:insert
+NODE:insert		TYPE:TK_INSERT
+NODE:Base		TYPE:Base
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:b
+NODE:b		TYPE:TK_IDENTIFIER
+NODE:statements		TYPE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 2:		TYPE:PlusExp_Cont		VALUE:PlusExp_Cont
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:PlusExp_Cont		TYPE:PlusExp_Cont
+CHILD 2:		TYPE:PlusExp		VALUE:PlusExp
+CHILD 1:		TYPE:TK_ADD		VALUE:+
+NODE:+		TYPE:TK_ADD
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_INT		VALUE:1
+NODE:1		TYPE:TK_INT
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_INT		VALUE:0
+NODE:0		TYPE:TK_INT
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Iterative_stmt		VALUE:Iterative_stmt
+NODE:Iterative_stmt		TYPE:Iterative_stmt
+CHILD 1:		TYPE:While_stmt		VALUE:While_stmt
+NODE:While_stmt		TYPE:While_stmt
+CHILD 6:		TYPE:statements		VALUE:statements
+CHILD 5:		TYPE:TK_START		VALUE:START
+CHILD 3:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_WHILE		VALUE:while
+NODE:while		TYPE:TK_WHILE
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 2:		TYPE:CompExp_Cont		VALUE:CompExp_Cont
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:CompExp_Cont		TYPE:CompExp_Cont
+CHILD 2:		TYPE:PlusExp		VALUE:PlusExp
+CHILD 1:		TYPE:CompOp		VALUE:CompOp
+NODE:CompOp		TYPE:CompOp
+CHILD 1:		TYPE:TK_LT		VALUE:<
+NODE:<		TYPE:TK_LT
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_INT		VALUE:15
+NODE:15		TYPE:TK_INT
+NODE:START		TYPE:TK_START
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:b
+NODE:b		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 2:		TYPE:DotOperators		VALUE:DotOperators
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:k
+NODE:k		TYPE:TK_IDENTIFIER
+NODE:DotOperators		TYPE:DotOperators
+CHILD 2:		TYPE:Operator		VALUE:Operator
+NODE:Operator		TYPE:Operator
+CHILD 3:		TYPE:Index		VALUE:Index
+CHILD 1:		TYPE:TK_GET		VALUE:get
+NODE:get		TYPE:TK_GET
+NODE:Index		TYPE:Index
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:m
+NODE:m		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 4:		TYPE:Base		VALUE:Base
+CHILD 2:		TYPE:TK_INSERT		VALUE:insert
+NODE:insert		TYPE:TK_INSERT
+NODE:Base		TYPE:Base
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:b
+NODE:b		TYPE:TK_IDENTIFIER
+NODE:statements		TYPE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 2:		TYPE:PlusExp_Cont		VALUE:PlusExp_Cont
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:PlusExp_Cont		TYPE:PlusExp_Cont
+CHILD 2:		TYPE:PlusExp		VALUE:PlusExp
+CHILD 1:		TYPE:TK_ADD		VALUE:+
+NODE:+		TYPE:TK_ADD
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_INT		VALUE:1
+NODE:1		TYPE:TK_INT
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 2:		TYPE:PlusExp_Cont		VALUE:PlusExp_Cont
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:PlusExp_Cont		TYPE:PlusExp_Cont
+CHILD 2:		TYPE:PlusExp		VALUE:PlusExp
+CHILD 1:		TYPE:TK_ADD		VALUE:+
+NODE:+		TYPE:TK_ADD
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 1:		TYPE:TK_INT		VALUE:14
+NODE:14		TYPE:TK_INT
+NODE:statements		TYPE:statements
+CHILD 2:		TYPE:statements		VALUE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:Exp_stmt		VALUE:Exp_stmt
+NODE:Exp_stmt		TYPE:Exp_stmt
+CHILD 2:		TYPE:Exp_Con		VALUE:Exp_Con
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:b
+NODE:b		TYPE:TK_IDENTIFIER
+NODE:Exp_Con		TYPE:Exp_Con
+CHILD 2:		TYPE:Exp		VALUE:Exp
+CHILD 1:		TYPE:TK_ASSIGNOP		VALUE:->
+NODE:->		TYPE:TK_ASSIGNOP
+NODE:Exp		TYPE:Exp
+CHILD 1:		TYPE:AndExp		VALUE:AndExp
+NODE:AndExp		TYPE:AndExp
+CHILD 1:		TYPE:CompExp		VALUE:CompExp
+NODE:CompExp		TYPE:CompExp
+CHILD 1:		TYPE:PlusExp		VALUE:PlusExp
+NODE:PlusExp		TYPE:PlusExp
+CHILD 1:		TYPE:MulExp		VALUE:MulExp
+NODE:MulExp		TYPE:MulExp
+CHILD 1:		TYPE:RootExp		VALUE:RootExp
+NODE:RootExp		TYPE:RootExp
+CHILD 2:		TYPE:DotOperators		VALUE:DotOperators
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:m
+NODE:m		TYPE:TK_IDENTIFIER
+NODE:DotOperators		TYPE:DotOperators
+CHILD 2:		TYPE:Operator		VALUE:Operator
+NODE:Operator		TYPE:Operator
+CHILD 3:		TYPE:Index		VALUE:Index
+CHILD 1:		TYPE:TK_GET		VALUE:get
+NODE:get		TYPE:TK_GET
+NODE:Index		TYPE:Index
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:i
+NODE:i		TYPE:TK_IDENTIFIER
+NODE:statements		TYPE:statements
+CHILD 1:		TYPE:statement		VALUE:statement
+NODE:statement		TYPE:statement
+CHILD 1:		TYPE:PrintBase_stmt		VALUE:PrintBase_stmt
+NODE:PrintBase_stmt		TYPE:PrintBase_stmt
+CHILD 3:		TYPE:Base		VALUE:Base
+CHILD 1:		TYPE:TK_PRINTBASE		VALUE:printBase
+NODE:printBase		TYPE:TK_PRINTBASE
+NODE:Base		TYPE:Base
+CHILD 1:		TYPE:TK_IDENTIFIER		VALUE:b
+NODE:b		TYPE:TK_IDENTIFIER
